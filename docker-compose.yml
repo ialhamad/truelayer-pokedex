@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  pokedex:
+    hostname: pokedex
+    container_name: pokedex
+    build:
+      context: .
+    ports:
+      - "8080:8080"
